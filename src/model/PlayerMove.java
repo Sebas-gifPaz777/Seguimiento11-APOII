@@ -60,6 +60,7 @@ public class PlayerMove {
 			else
 				System.out.println("No se puede recorrer las suficientes casillas con este número");
 			
+			System.out.println("Dado: "+num);
 			printBoard(n,f);
 			
 			if(temp.getNext()==null) {
